@@ -8,4 +8,4 @@ After both the House and the Player have made their moves, the round is over, an
 
 In this game, you play as the Player while the House is represented by an AI. You can play as many times as you want, so see how many times you can win in Blackjack!
 
-This project originally began as a lab assignment for a class.
+This project originally began as a lab assignment for a class, and was later translated into Python from Java.
