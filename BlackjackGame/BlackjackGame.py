@@ -12,6 +12,13 @@ class BlackjackGame:
     while playAgain != -1:
         houseTotal = deck.draw_card().get_value(True) + deck.draw_card().get_value(True)
         playerTotal = deck.draw_card().get_value(True) + deck.draw_card().get_value(True)
+        
+        while houseTotal >= 21:
+            houseTotal = deck.draw_card().get_value(True) + deck.draw_card().get_value(True)
+
+        while playerTotal >= 21:
+            playerTotal = deck.draw_card().get_value(True) + deck.draw_card().get_value(True)
+        
         print("The House is showing: " + str(houseTotal))
 
         while playerTotal < 22:
